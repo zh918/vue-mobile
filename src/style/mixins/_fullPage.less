@@ -1,0 +1,13 @@
+/*页面content最少高度为整屏,bottom离底部的距离*/
+
+.full-page(@bottom) {
+    position: fixed;
+    top: 4.4rem;
+    bottom: @bottom;
+    left: 0;
+    right: 0;
+    background: #F0F0F0;
+    -webkit-overflow-scrolling:touch;
+    overflow: auto;
+
+}
